@@ -4,6 +4,8 @@ Selected product name: **Pagemi**. Pronunciation: **PAGE-mee**.
 
 Use Pagemi in all current UI, metadata, decks, filenames, narration, subtitles, production templates and submission copy. Package/repository slug: `pagemi`. No full stops on slide headings.
 
+Selected logo: **03 — 小纸灵**, the lime folded-page P with two eyes. The approved original and transparent raster master are in `brand/`. It replaces the layered app symbol and plain P favicon. Current logo release: `merchreflex-00025-xor`; the earlier release checks below are historical.
+
 - Public source: https://github.com/joeymilano/pagemi
 - Local entry: `/Users/joeyzhao/Documents/Pagemi` (compatibility link to the existing checkout)
 - Google Cloud project display name: Pagemi

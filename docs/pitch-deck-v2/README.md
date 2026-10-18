@@ -14,11 +14,12 @@ The six photographic slides include two newly generated images, two reused conce
 
 ## Asset sources
 
+- `images/pagemi-mark.png`: approved logo 03, the lime folded-page character, selected by the user on 18 October 2026. Used in each page header and the cover/closing lockups. The source master is `../brand/pagemi-mark-master.png`.
 - `assets/icons/*.svg`: Phosphor Icons, light weight, downloaded 18 October 2026 from https://github.com/phosphor-icons/core/tree/main/assets/light . MIT license included in `assets/icons/LICENSE.txt`. Inline SVG colors inherit the deck palette.
 - `01-pagemi-loop.*`: built-in image generation, folded metal ribbon. Concept art, not a technical diagram. File name follows the selected Pagemi brand.
 - `03-rain-texture.*`: built-in image generation, droplets on woven fabric. Concept art, not a product test or evidence of waterproofing.
 - `04-merchant-concept.jpg`, `09-evidence-concept.jpg`: reused generated editorial images from the earlier deck.
-- `07-live-workbench.jpg`: actual public interface captured 18 October, before audit.
+- `07-live-workbench.jpg`: actual public interface captured 18 October after the selected-logo release, before audit; top 1600×900 crop of the full-page PNG retained alongside it. No model call was made for this capture.
 - `11-historical-storefront.jpg`: actual historical interface captured 13 October.
 - Pagemi regeneration templates are in `prompts.json`; exact original requests are in `provenance/generation-prompts-original.json`. Original PNGs remain in `images/`.
 

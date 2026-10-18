@@ -1,0 +1,118 @@
+{
+  "date": "2026-10-18",
+  "revision": "merchreflex-00025-xor",
+  "url": "https://pagemi.joeyzhao.cc",
+  "scope": "Approved logo 03 integration",
+  "build": "passed",
+  "typecheck": "passed",
+  "modelCalls": 0,
+  "candidate-check": {
+    "/": {
+      "status": 200,
+      "bytes": 14942,
+      "hasLogo": true,
+      "hasMobileBrand": true
+    },
+    "/brand/pagemi-mark.png": {
+      "status": 200,
+      "bytes": 24171,
+      "matchesLocal": true
+    },
+    "/icon.png": {
+      "status": 200,
+      "bytes": 2782,
+      "matchesLocal": true
+    },
+    "/apple-icon.png": {
+      "status": 200,
+      "bytes": 12812,
+      "matchesLocal": true
+    },
+    "/api/health": {
+      "status": 200,
+      "bytes": 199,
+      "health": {
+        "ok": true,
+        "service": "pagemi",
+        "provider": "vertexai",
+        "model": "gemini-3.8-flash",
+        "storage": "firestore",
+        "version": "0.1.0",
+        "promptHash": "3754665a83db1f525424138bb4a55b8a316052f139342a80ed6d90500e05192e"
+      }
+    }
+  },
+  "public-check": {
+    "title": "Pagemi \u2014 Fix the page. Not just the ticket.",
+    "errors": [],
+    "/brand/pagemi-mark.png": {
+      "status": 200,
+      "matchesLocal": true
+    },
+    "/icon.png": {
+      "status": 200,
+      "matchesLocal": true
+    },
+    "/apple-icon.png": {
+      "status": 200,
+      "matchesLocal": true
+    },
+    "sessionStarted": true,
+    "modelCalls": 0
+  },
+  "ui-check": {
+    "errors": [],
+    "result": [
+      {
+        "name": "desktop",
+        "logo": {
+          "loaded": true,
+          "source": "/brand/pagemi-mark.png",
+          "width": 44,
+          "height": 44
+        },
+        "icons": [
+          {
+            "rel": "icon",
+            "href": "/icon.png?icon.28i8iri0812u6.png"
+          },
+          {
+            "rel": "apple-touch-icon",
+            "href": "/apple-icon.png?apple-icon.1jvrh31_kwxl6.png"
+          }
+        ],
+        "overflow": false
+      },
+      {
+        "name": "mobile",
+        "logo": {
+          "loaded": true,
+          "source": "/brand/pagemi-mark.png",
+          "width": 36,
+          "height": 36
+        },
+        "icons": [
+          {
+            "rel": "icon",
+            "href": "/icon.png?icon.28i8iri0812u6.png"
+          },
+          {
+            "rel": "apple-touch-icon",
+            "href": "/apple-icon.png?apple-icon.1jvrh31_kwxl6.png"
+          }
+        ],
+        "overflow": false
+      }
+    ]
+  },
+  "runtime-config-check": [
+    {
+      "revision": "merchreflex-00023-fow",
+      "configHash": "cd01b356601177605d0f85257995e07361e266ee190bad67cecdc7772986f65a"
+    },
+    {
+      "revision": "merchreflex-00025-xor",
+      "configHash": "cd01b356601177605d0f85257995e07361e266ee190bad67cecdc7772986f65a"
+    }
+  ]
+}

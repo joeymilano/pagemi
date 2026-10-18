@@ -219,17 +219,11 @@ svg {
   letter-spacing: -0.7px;
 }
 .brand-icon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 32px;
-  height: 32px;
-  background: linear-gradient(160deg, #46dfa2, #157a54);
-  color: #052317;
-  border-radius: 10px;
-  box-shadow:
-    inset 0 1px 0 rgba(255, 255, 255, 0.4),
-    0 6px 18px rgba(21, 122, 84, 0.35);
+  display: block;
+  width: 44px;
+  height: 44px;
+  flex-shrink: 0;
+  object-fit: contain;
 }
 .brand-dot {
   font-size: 11px;
@@ -343,6 +337,9 @@ svg {
 }
 
 /* ---------- Main shell / topbar ---------- */
+.mobile-wordmark {
+  display: none;
+}
 .main-shell {
   margin-left: 244px;
   width: calc(100% - 244px);
@@ -1564,6 +1561,22 @@ textarea:focus {
   .topbar {
     height: 55px;
     padding: 0 20px;
+  }
+  .mobile-wordmark {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    color: var(--ink);
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+  }
+  .mobile-wordmark img {
+    display: block;
+  }
+  .topbar .workspace-crumb,
+  .topbar > span > svg {
+    display: none;
   }
   .topbar > div .top-divider,
   .topbar > div {

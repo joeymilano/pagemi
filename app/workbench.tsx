@@ -7,7 +7,6 @@ import {
   ChevronRight,
   FileText,
   History,
-  Layers3,
   LoaderCircle,
   Play,
   Plus,
@@ -356,9 +355,13 @@ export default function Workbench() {
     <div className="app-shell">
       <aside className="rail">
         <a href="/" className="wordmark">
-          <span className="brand-icon">
-            <Layers3 size={21} />
-          </span>
+          <img
+            className="brand-icon"
+            src="/brand/pagemi-mark.png"
+            width={44}
+            height={44}
+            alt=""
+          />
           Pagemi
         </a>
         <div className="workspace-label">
@@ -399,8 +402,13 @@ export default function Workbench() {
       </aside>
       <div className="main-shell">
         <header className="topbar">
+          <a href="/" className="mobile-wordmark">
+            <img src="/brand/pagemi-mark.png" width={36} height={36} alt="" />
+            Pagemi
+          </a>
           <span>
-            Workspace <ChevronRight size={13} /> {steps[step]}
+            <span className="workspace-crumb">Workspace</span>
+            <ChevronRight size={13} /> {steps[step]}
           </span>
           <div>
             <span className="dot" /> Isolated demo{" "}
