@@ -1,14 +1,16 @@
-import { Type } from "@google/genai";
+import { modelSettings } from "../lib/model-config";
+import { Type, ThinkingLevel } from "@google/genai";
+import assert from "node:assert/strict";
 import { readFile, writeFile, mkdir } from "node:fs/promises";
 import { genAiClient, GENAI_ENDPOINT } from "../lib/agent";
 async function main() {
   const ai = genAiClient();
-  const model = process.env.GEMINI_MODEL || "gemini-3.8-flash";
+  const model = modelSettings().model;
   const tests = [
     {
       name: "text",
       contents: "Return exactly: MerchReflex ready",
-      config: { maxOutputTokens: 128 },
+      config: { maxOutputTokens: 512 },
     },
     {
       name: "image",
@@ -28,13 +30,13 @@ async function main() {
           ],
         },
       ],
-      config: { maxOutputTokens: 256 },
+      config: { maxOutputTokens: 512 },
     },
     {
       name: "tool",
       contents: "Call inspect_page to read the product page.",
       config: {
-        maxOutputTokens: 256,
+        maxOutputTokens: 512,
         tools: [
           {
             functionDeclarations: [
@@ -56,8 +58,11 @@ async function main() {
       const r = await ai.models.generateContent({
         model,
         contents: t.contents,
-        config: t.config,
+        config: { ...t.config, thinkingConfig: { thinkingLevel: ThinkingLevel.LOW }, httpOptions: { timeout: 40000, retryOptions: { attempts: 1 } } },
       });
+      if (t.name === "tool") assert.equal(r.functionCalls?.[0]?.name, "inspect_page");
+      else assert.ok(r.text?.trim(), "Empty model response");
+      if (t.name === "text") assert.match(r.text!, /MerchReflex ready/);
       const result = {
         test: t.name,
         model,
@@ -72,7 +77,8 @@ async function main() {
       console.error(
         JSON.stringify({
           test: t.name,
-          error: e instanceof Error ? e.message : String(e),
+          error: e instanceof Error ? e.name : "UnknownError",
+          status: typeof (e as { status?: unknown })?.status === "number" ? (e as { status: number }).status : undefined,
         }),
       );
       process.exitCode = 1;

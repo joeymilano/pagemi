@@ -11,6 +11,7 @@ import {
   type Verification,
 } from "./types";
 import { products } from "./fixtures";
+import { modelSettings } from "./model-config";
 import type { Store } from "./store";
 export const hash = (v: unknown) =>
   createHash("sha256").update(JSON.stringify(v)).digest("hex");
@@ -245,7 +246,7 @@ export async function beginRun(db: Store, id: string, parentId?: string) {
       evidenceRevision: s.evidenceRevision,
       events: [],
       issues: [],
-      model: process.env.GEMINI_MODEL || "gemini-3.8-flash",
+      model: modelSettings().model,
       promptHash: "",
       calls: 0,
       tools: 0,

@@ -45,6 +45,9 @@ test("depleted prepaid credits are a billing state, not transient", () => {
     { status: 402 },
   );
   assert.equal(isTransientModelError(e), false);
+  assert.equal(isTransientModelError(transient(429, "insufficient_quota")), false);
+  assert.equal(isTransientModelError(transient(401, "RESOURCE_EXHAUSTED")), false);
+  assert.equal(isTransientModelError(transient(429, "账户余额不足")), false);
 });
 
 test("retryDecision allows bounded, deadline-aware retries", () => {

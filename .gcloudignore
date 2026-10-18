@@ -5,3 +5,6 @@ node_modules
 .data
 output
 *.tsbuildinfo
+.v2c
+.video_agent
+.zcode

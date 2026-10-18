@@ -1,0 +1,19 @@
+{
+  "at": "2026-10-18T09:14:17.262001+00:00",
+  "provider": "wanjie",
+  "model": "gemini-3-flash-preview",
+  "generation": {
+    "status": 403,
+    "code": "PERMISSION_DENIED",
+    "message": "The requested model is not authorized for your account.",
+    "requestId": "8ad8dff0-5ad1-4e21-bbd9-7f46007a6932"
+  },
+  "modelListing": {
+    "status": 200,
+    "containsGeminiOrGemma": false
+  },
+  "completedCapabilities": [],
+  "deploymentChanged": false,
+  "currentRevision": "merchreflex-00012-his",
+  "note": "The key can read its model list. This does not establish balance, quota or access to other unlisted models. No key values retained."
+}

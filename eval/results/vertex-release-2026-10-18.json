@@ -1,0 +1,392 @@
+{
+  "at": "2026-10-18T09:35:05.754430+00:00",
+  "provider": "vertexai",
+  "model": "gemini-3.8-flash",
+  "authorizationUsd": 1,
+  "previousLedgerSpentUsd": 3.8764655000000023,
+  "newWorkflowAllowanceUsd": 0.9,
+  "cumulativeLedgerCapUsd": 4.776465500000002,
+  "diagnosticReserveUsd": 0.05,
+  "remainingSafetyMarginUsd": 0.05,
+  "diagnosticInputTokens": 1241,
+  "diagnosticOutputAndThinkingTokens": 130,
+  "diagnosticEstimatedUsdAtPublishedIntroductoryRates": 0.00141825,
+  "billingSettled": false,
+  "capabilities": [
+    {
+      "test": "text",
+      "httpStatus": 200,
+      "durationSeconds": 2.02,
+      "text": "MerchReflex ready",
+      "tools": [],
+      "usage": {
+        "promptTokenCount": 8,
+        "candidatesTokenCount": 5,
+        "totalTokenCount": 13,
+        "trafficType": "ON_DEMAND",
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 8
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 5
+          }
+        ]
+      },
+      "reportedModelVersion": "gemini-3.8-flash"
+    },
+    {
+      "test": "image",
+      "httpStatus": 200,
+      "durationSeconds": 5.89,
+      "text": "The two main objects are an olive green backpack and an off-white water bottle.",
+      "tools": [],
+      "usage": {
+        "promptTokenCount": 1098,
+        "candidatesTokenCount": 17,
+        "totalTokenCount": 1204,
+        "trafficType": "ON_DEMAND",
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 9
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 1089
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 17
+          }
+        ],
+        "thoughtsTokenCount": 89
+      },
+      "reportedModelVersion": "gemini-3.8-flash"
+    },
+    {
+      "test": "tool",
+      "httpStatus": 200,
+      "durationSeconds": 1.99,
+      "text": "",
+      "tools": [
+        {
+          "name": "inspect_page",
+          "args": {},
+          "id": "call_9525"
+        }
+      ],
+      "usage": {
+        "promptTokenCount": 25,
+        "candidatesTokenCount": 10,
+        "totalTokenCount": 35,
+        "trafficType": "ON_DEMAND",
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 25
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 10
+          }
+        ]
+      },
+      "reportedModelVersion": "gemini-3.8-flash"
+    },
+    {
+      "test": "schema",
+      "httpStatus": 200,
+      "durationSeconds": 2.32,
+      "text": "{\"issues\": [], \"changes\": []}",
+      "tools": [],
+      "usage": {
+        "promptTokenCount": 110,
+        "candidatesTokenCount": 9,
+        "totalTokenCount": 119,
+        "trafficType": "ON_DEMAND",
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 110
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 9
+          }
+        ]
+      },
+      "reportedModelVersion": "gemini-3.8-flash"
+    }
+  ],
+  "releaseStatus": "deployed_and_verified",
+  "authorizationScope": "User approved at most USD 1 of new model calls to get the full demo working and online.",
+  "localValidation": {
+    "testsPassed": 35,
+    "build": "passed",
+    "typecheck": "passed"
+  },
+  "buildId": "aaac62d4-6f55-43b0-b4f8-48d7130e0537",
+  "publicFailure": {
+    "status": "upstream timeout",
+    "httpStatus": 504,
+    "calls": 4,
+    "returnedUsageEstimateUsd": 0.018663,
+    "uncertainAttempts": 2,
+    "conservativeChargeUsd": 0.138663,
+    "patchProduced": false
+  },
+  "budgetReconciliation": {
+    "runId": "3a4dfa0e-8cb0-4c48-9a2e-4b6eee975e92",
+    "oldConservativeChargeUsd": 0.5,
+    "newConservativeChargeUsd": 0.13866299999999998,
+    "knownUsageEstimateUsd": 0.018663,
+    "uncertainAttempts": 2,
+    "uncertainUpperAllowanceEachUsd": 0.06,
+    "ledgerBeforeUsd": 4.407035500000003,
+    "ledgerAfterUsd": 4.045698500000003,
+    "commitTime": "2026-10-18T09:46:20.327100Z"
+  },
+  "earlierPublicAttempts": [
+    {
+      "label": "vertex-public-1",
+      "status": "failed",
+      "error": "SERVICE_UNAVAILABLE",
+      "calls": 4,
+      "tools": 2,
+      "usage": {
+        "input": 6232,
+        "output": 1242,
+        "estimatedUsd": 0.018663
+      },
+      "retries": 1
+    },
+    {
+      "label": "vertex-final-public-1",
+      "status": "completed",
+      "error": null,
+      "calls": 3,
+      "tools": 2,
+      "usage": {
+        "input": 10200,
+        "output": 2016,
+        "estimatedUsd": 0.03042
+      },
+      "retries": 0
+    },
+    {
+      "label": "vertex-final-public-2",
+      "status": "completed",
+      "error": null,
+      "calls": 3,
+      "tools": 2,
+      "usage": {
+        "input": 11227,
+        "output": 1660,
+        "estimatedUsd": 0.0292905
+      },
+      "retries": 0
+    },
+    {
+      "label": "vertex-final-public-3",
+      "status": "failed",
+      "error": "SERVICE_UNAVAILABLE",
+      "calls": 4,
+      "tools": 2,
+      "usage": {
+        "input": 7320,
+        "output": 1632,
+        "estimatedUsd": 0.14322
+      },
+      "retries": 1
+    }
+  ],
+  "finalRevision": "merchreflex-00018-mib",
+  "trafficPercent": 100,
+  "finalBuildId": "0be7c96e-c60f-421a-b1b0-283af5d03cc7",
+  "verifiedAt": "2026-10-18T10:08:55.535537+00:00",
+  "publicUrl": "https://merchreflex-927668522599.asia-southeast1.run.app",
+  "promptHash": "c0f3d8f61a9a1f859d63a228967c874f8db95d891addc9f0ce020ec7990665f6",
+  "publicConsecutivePasses": 5,
+  "publicRuns": [
+    {
+      "at": "2026-10-18T10:04:44.476Z",
+      "status": "passed",
+      "durationMs": 34830,
+      "checks": [
+        "unauthenticated read denied",
+        "Origin enforced",
+        "CSRF enforced",
+        "live agent completed",
+        "session isolation",
+        "unapproved publish denied",
+        "approved publish",
+        "idempotent replay",
+        "served page verified",
+        "rollback",
+        "restored page verified"
+      ],
+      "modelCalls": 3,
+      "tools": 2,
+      "usage": {
+        "input": 11007,
+        "output": 1678,
+        "estimatedUsd": 0.0290955
+      },
+      "retries": 0
+    },
+    {
+      "at": "2026-10-18T10:06:06.176Z",
+      "status": "passed",
+      "durationMs": 69479,
+      "checks": [
+        "unauthenticated read denied",
+        "Origin enforced",
+        "CSRF enforced",
+        "live agent completed",
+        "session isolation",
+        "unapproved publish denied",
+        "approved publish",
+        "idempotent replay",
+        "served page verified",
+        "rollback",
+        "restored page verified"
+      ],
+      "modelCalls": 4,
+      "tools": 2,
+      "usage": {
+        "input": 11246,
+        "output": 1948,
+        "estimatedUsd": 0.091479
+      },
+      "retries": 1
+    },
+    {
+      "at": "2026-10-18T10:06:47.804Z",
+      "status": "passed",
+      "durationMs": 29209,
+      "checks": [
+        "unauthenticated read denied",
+        "Origin enforced",
+        "CSRF enforced",
+        "live agent completed",
+        "session isolation",
+        "unapproved publish denied",
+        "approved publish",
+        "idempotent replay",
+        "served page verified",
+        "rollback",
+        "restored page verified"
+      ],
+      "modelCalls": 3,
+      "tools": 1,
+      "usage": {
+        "input": 9633,
+        "output": 1308,
+        "estimatedUsd": 0.0242595
+      },
+      "retries": 0
+    },
+    {
+      "at": "2026-10-18T10:07:20.280Z",
+      "status": "passed",
+      "durationMs": 20244,
+      "checks": [
+        "unauthenticated read denied",
+        "Origin enforced",
+        "CSRF enforced",
+        "live agent completed",
+        "session isolation",
+        "unapproved publish denied",
+        "approved publish",
+        "idempotent replay",
+        "served page verified",
+        "rollback",
+        "restored page verified"
+      ],
+      "modelCalls": 3,
+      "tools": 2,
+      "usage": {
+        "input": 11015,
+        "output": 1560,
+        "estimatedUsd": 0.0282225
+      },
+      "retries": 0
+    },
+    {
+      "at": "2026-10-18T10:08:04.110Z",
+      "status": "passed",
+      "durationMs": 30874,
+      "checks": [
+        "unauthenticated read denied",
+        "Origin enforced",
+        "CSRF enforced",
+        "live agent completed",
+        "session isolation",
+        "unapproved publish denied",
+        "approved publish",
+        "idempotent replay",
+        "served page verified",
+        "rollback",
+        "restored page verified"
+      ],
+      "modelCalls": 3,
+      "tools": 2,
+      "usage": {
+        "input": 11018,
+        "output": 2070,
+        "estimatedUsd": 0.032052
+      },
+      "retries": 0
+    }
+  ],
+  "pauseBetweenRunsSeconds": 10,
+  "imageAndIsolation": {
+    "at": "2026-10-18T09:52:17.340096+00:00",
+    "status": "passed",
+    "checks": [
+      "private normalized image upload",
+      "authenticated image retrieval",
+      "anonymous image access denied",
+      "cross-SKU verification denied"
+    ],
+    "modelCalls": 0
+  },
+  "budgetSnapshot": {
+    "cumulativeEstimatedSpentUsd": 4.573070000000002,
+    "reservedUsd": 0.0,
+    "newConservativeWorkflowUsageUsd": 0.6966044999999998,
+    "remainingApplicationAllowanceUsd": 0.20339550000000006,
+    "billSettled": false,
+    "note": "Includes conservative allowances for timed-out attempts; not the Google invoice. No credit coverage assumed."
+  },
+  "finalCandidate": {
+    "at": "2026-10-18T10:01:52.889Z",
+    "origin": "https://candidate---merchreflex-sqaibrdjbq-as.a.run.app",
+    "status": "passed",
+    "durationMs": 84182,
+    "checks": [
+      "unauthenticated read denied",
+      "Origin enforced",
+      "CSRF enforced",
+      "live agent completed",
+      "session isolation",
+      "unapproved publish denied",
+      "approved publish",
+      "idempotent replay",
+      "served page verified",
+      "rollback",
+      "restored page verified"
+    ]
+  }
+}

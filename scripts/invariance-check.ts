@@ -1,3 +1,4 @@
+import { modelSettings } from "../lib/model-config";
 import { mkdir, writeFile } from "node:fs/promises";
 import { MemoryStore, store } from "../lib/store";
 import { newSession, beginRun, createEvidence, now } from "../lib/domain";
@@ -271,7 +272,7 @@ async function main() {
 
   const summary = {
     at: now(),
-    model: process.env.GEMINI_MODEL || "gemini-3.8-flash",
+    model: modelSettings().model,
     endpoint: GENAI_ENDPOINT,
     promptHash: AGENT_PROMPT_HASH,
     scope:
