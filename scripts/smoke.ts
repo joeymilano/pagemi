@@ -9,7 +9,7 @@ async function main() {
   const tests = [
     {
       name: "text",
-      contents: "Return exactly: MerchReflex ready",
+      contents: "Return exactly: Pagemi ready",
       config: { maxOutputTokens: 512 },
     },
     {
@@ -62,7 +62,7 @@ async function main() {
       });
       if (t.name === "tool") assert.equal(r.functionCalls?.[0]?.name, "inspect_page");
       else assert.ok(r.text?.trim(), "Empty model response");
-      if (t.name === "text") assert.match(r.text!, /MerchReflex ready/);
+      if (t.name === "text") assert.match(r.text!, /Pagemi ready/);
       const result = {
         test: t.name,
         model,

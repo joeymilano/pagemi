@@ -1,7 +1,7 @@
 start=template.index('<div id="deck">')
 end=template.index('<div id="nav"',start)
 template=template[:start]+'<div id="deck">\n'+'\n'.join(slides)+'\n</div>\n'+template[end:]
-template=template.replace('[必填] 替换为 PPT 标题 · Deck Title','MerchReflex — Product-page repair')
+template=template.replace('[必填] 替换为 PPT 标题 · Deck Title','Pagemi — Product-page repair')
 template=template.replace('lang="zh-CN"','lang="en"')
 template=re.sub(r'<link[^>]+(?:fonts.googleapis.com|fonts.gstatic.com)[^>]*>','',template)
 template=template.replace('--accent:#002FA7','--accent:#BFFF00').replace('--accent-rgb:0,47,167','--accent-rgb:191,255,0').replace('--accent-on:#ffffff','--accent-on:#0a0a0a').replace('--accent-bright:#5B7BFF','--accent-bright:#BFFF00')

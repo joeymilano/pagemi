@@ -1,4 +1,4 @@
-# MerchReflex — current Zcode handoff
+# Pagemi — current Zcode handoff
 
 Updated: 2026-10-18T10:08:55.535537+00:00. This is the current handoff; the earlier Wanjie and AI Studio paths are historical.
 
@@ -6,14 +6,18 @@ Updated: 2026-10-18T10:08:55.535537+00:00. This is the current handoff; the earl
 
 - Canonical browser URL: https://merchreflex-927668522599.asia-southeast1.run.app
 - Google Cloud project: `merchreflex-cup-2026`; region: `asia-southeast1`.
-- Serving revision: **`merchreflex-00018-mib`**, verified at **100% traffic**.
+- Serving revision: **`merchreflex-00023-fow`**, verified at **100% traffic**.
 - Provider/model: **official Vertex AI / `gemini-3.8-flash` / `global`**. Generation and independent semantic verification both make real model requests; there is no replay fallback.
 - Runtime identity: `merchreflex-app@merchreflex-cup-2026.iam.gserviceaccount.com`. It already has Vertex AI and Firestore permissions. Private image storage was verified. No API keys or service-account key files are deployed in this revision.
 - `aiplatform.googleapis.com` is enabled. Cloud billing stays linked; do not unbind it under an assumption that Cloud Run/Firestore/storage will continue serving free.
-- Prompt fingerprint: `c0f3d8f61a9a1f859d63a228967c874f8db95d891addc9f0ce020ec7990665f6`.
-- Final Cloud Build: `0be7c96e-c60f-421a-b1b0-283af5d03cc7`.
+- Current prompt fingerprint: `3754665a83db1f525424138bb4a55b8a316052f139342a80ed6d90500e05192e`. The measured fingerprint remains in the release evidence.
+- Historical measured-release Cloud Build: `0be7c96e-c60f-421a-b1b0-283af5d03cc7`.
 
 Use the canonical numeric URL above. The application checks an exact `APP_ORIGIN`; an alternate Cloud Run URL is not an interchangeable browser entry point. Candidate API tests use the tagged URL plus the canonical write Origin.
+
+## Pagemi branding release · 18 October 2026
+
+Revision `merchreflex-00023-fow` completes Pagemi branding in UI, favicon, package metadata, health output and agent identity. Only the name changed in the agent prompt; its decision instructions are byte-for-byte unchanged. Its fingerprint changes accordingly. Provider, budget ledger, configuration and canonical URL are preserved. 35 local tests, build and type-check passed. Candidate health, title and icon were checked before moving traffic. No model requests were made for this rebrand. The five workflow measurements below belong to `merchreflex-00018-mib`; they were not rerun for the new prompt fingerprint.
 
 ## What was verified
 
@@ -69,5 +73,5 @@ One earlier failed workflow had its whole-run USD 0.50 reserve reconciled to USD
 - [Official model documentation](https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/3-8-flash)
 - [Official model pricing](https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing)
 - [CountTokens documentation](https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/capabilities/get-token-count)
-- [Repository](https://github.com/joeymilano/merchreflex)
+- [Repository](https://github.com/joeymilano/pagemi)
 - [Previous Wanjie investigation](HANDOFF_WANJIE.md)

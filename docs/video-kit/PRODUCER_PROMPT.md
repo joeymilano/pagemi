@@ -1,4 +1,4 @@
-请接手 Pagemi 的 AI Builder Cup 演示视频制作。项目根目录是 /Users/joeyzhao/Documents/MerchReflex。先读 docs/video-kit/START_HERE_OPUS.md，打开 STORYBOARD.html，然后按 DIRECTOR_SCRIPT.md、timeline.json 和 CAPTURE_PLAN.md 执行。
+请接手 Pagemi 的 AI Builder Cup 演示视频制作。项目根目录是 /Users/joeyzhao/Documents/Pagemi。先读 docs/video-kit/START_HERE_OPUS.md，打开 STORYBOARD.html，然后按 DIRECTOR_SCRIPT.md、timeline.json 和 CAPTURE_PLAN.md 执行。
 
 目标是195秒、16:9、1080p、30fps、全英文旁白/字幕的成片。前5秒用“The ticket is closed. The mistake is still live.”制造冲突，15秒内出现真实产品，主体让评委看清来源、人工批准、证据更新使旧批准失效、发布后读取页面及版本恢复。延续真实产品的深绿黑、奶白和薄荷绿，以镜头和声音制造冲击；不能用泛科技粒子、代码雨或伪造UI替代产品证明。
 

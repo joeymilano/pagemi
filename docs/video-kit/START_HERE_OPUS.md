@@ -7,8 +7,8 @@
 制作 **3:15、16:9、1920×1080、30 fps、全英文旁白与字幕** 的 AI Builder Cup 演示片。名字暂定 **“The mistake is still live.”** 前 5 秒抓人，15 秒内看见产品，主体必须看清真实操作。保留 2:55 短版剪辑能力。
 
 - 产品：https://merchreflex-927668522599.asia-southeast1.run.app
-- 源码：https://github.com/joeymilano/merchreflex
-- 仓库根目录：`/Users/joeyzhao/Documents/MerchReflex`
+- 源码：https://github.com/joeymilano/pagemi
+- 仓库根目录：`/Users/joeyzhao/Documents/Pagemi`
 - 本素材包：`docs/video-kit/`
 - 首先打开 `STORYBOARD.html`，再读 `DIRECTOR_SCRIPT.md`、`CAPTURE_PLAN.md`。
 - `timeline.json` 是 195 秒主版的统一时间轴，包含旁白、画面、声效及证据。英文台词在 `VOICEOVER_EN.md`。

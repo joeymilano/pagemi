@@ -46,12 +46,14 @@ Use the included Dockerfile and `scripts/deploy.sh`, exporting the required envi
 
 Set the deployed service URL as `APP_ORIGIN`, and keep the public app accessible during judging. The application has a global model budget and daily quotas, but cloud billing alerts are not hard spending caps. Inspect actual billing daily.
 
-The existing token cost ledger uses conservative estimates of $1.50/M input and $7.50/M output tokens, including thinking tokens; these are not verified Wanjie account prices or a provider billing cap. Check Wanjie usage/balance separately. Neither Wanjie model usage nor Google hosting is asserted to be free or covered by the GenAI App Builder trial credit.
+The shared ledger reserves each attempted model request and settles conservative estimates at $1.50/M input and $7.50/M output tokens, including thinking tokens. It retains an allowance for unknown timeout usage. This is application accounting, not the provider invoice or a cap on cloud infrastructure charges. No GenAI App Builder credit coverage is assumed.
 
 ## Documentation
 
 - [Architecture and boundaries](docs/IMPLEMENTATION.md)
 - [Research protocol](docs/RESEARCH.md)
+- [Director script and Opus production kit](docs/video-kit/START_HERE_OPUS.md)
+- [Judge brief and evidence map](docs/JUDGE_BRIEF.md)
 - [Demo script](docs/DEMO-SCRIPT.md)
 - [Submission checklist](docs/SUBMISSION.md)
 - [Evaluation cases](eval/cases.json)

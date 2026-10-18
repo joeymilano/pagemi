@@ -1,4 +1,4 @@
-# MerchReflex — Wanjie full-workflow handoff
+# Pagemi — Wanjie full-workflow handoff
 
 **Superseded provider choice:** after the Wanjie key returned no Gemini access, the user requested returning to Google Cloud. Follow [HANDOFF_GOOGLE_CLOUD.md](HANDOFF_GOOGLE_CLOUD.md) for the current plan; retain this file as diagnostic history, not deployment authorization.
 
@@ -77,5 +77,5 @@ No new deployment or traffic promotion has occurred. Cloud Run was re-read: `mer
 
 - Wanjie native Gemini documentation: https://docs.wjark.com/maas/WebDoc/gemini.html
 - Public app: https://merchreflex-927668522599.asia-southeast1.run.app
-- Repository: https://github.com/joeymilano/merchreflex
+- Repository: https://github.com/joeymilano/pagemi
 - Google credit test evidence: `eval/results/credit-smoke-2026-10-18.json` (two successful grounding calls; credit coverage still not established).

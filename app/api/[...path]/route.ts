@@ -37,7 +37,7 @@ export async function GET(
     if (p[0] === "health")
       return json({
         ok: true,
-        service: "merchreflex",
+        service: "pagemi",
         ...modelSettings(),
         storage: process.env.STORAGE_DRIVER || "local",
         version: "0.1.0",

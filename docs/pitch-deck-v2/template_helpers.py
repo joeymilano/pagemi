@@ -7,7 +7,7 @@ template=(ROOT/'assets/template-swiss.html').read_text()
 slides=[]
 plan=[]
 def chrome(n,section):
-    return f'<header class="chrome-min"><div class="l">MERCHREFLEX / {section}</div><div class="r">AI BUILDER CUP 2026 &nbsp; {n:02d} / 16</div></header>'
+    return f'<header class="chrome-min"><div class="l">PAGEMI / {section}</div><div class="r">AI BUILDER CUP 2026 &nbsp; {n:02d} / 16</div></header>'
 def head(title,kicker=''):
     return f'<div data-anim="head"><h2 class="h-xl" style="margin-top:1.5vh">{title}</h2></div>'
 def note(text):
@@ -22,7 +22,7 @@ def imgslide(theme,section,image,title,body,stats,caption,ui=False):
     # S22: image area, title block, explanation and three factual anchors.
     content=f'''<div data-anim="img" class="hero-img-wrap" style="height:56vh;flex:0 0 56vh;position:relative;overflow:hidden;background:var(--ink)">
       <img data-image-slot="s22-hero-21x9" src="images/{image}" alt="{caption}" style="width:100%;height:100%;{style}">
-      <div style="position:absolute;left:5vw;top:3vh;background:var(--ink);color:var(--paper);padding:.8vh 1vw;font-family:var(--mono);font-size:14px">MERCHREFLEX / {section.upper()} &nbsp; {n:02d}/16</div>
+      <div style="position:absolute;left:5vw;top:3vh;background:var(--ink);color:var(--paper);padding:.8vh 1vw;font-family:var(--mono);font-size:14px">PAGEMI / {section.upper()} &nbsp; {n:02d}/16</div>
       {'' if ui else f'<div data-anim="title-block" class="hero-overlay-block" style="position:absolute;left:5vw;bottom:3.6vh;background:var(--paper);color:var(--ink);padding:2vh 2vw;max-width:43vw"><h1 style="font-size:min(4.9vw,8.6vh);font-weight:200;line-height:.98;letter-spacing:-.045em">{title}</h1></div>'}
     </div><div class="image-hero-body" data-anim="kpi" style="padding-top:3.6vh;padding-bottom:8vh;gap:3vw;grid-template-columns:1.1fr 1fr">
       <div><h2 style="font-size:min(2.6vw,4.5vh);font-weight:300;line-height:1.1;margin-bottom:1vh">{title if ui else 'Fix the page · Not just the ticket' if n==1 else section}</h2><p class="lead" style="font-size:20px">{body}</p><p style="font-size:14px;margin-top:1.5vh;opacity:.65">{caption}</p></div>

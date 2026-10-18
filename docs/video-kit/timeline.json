@@ -6,7 +6,7 @@
   "height": 1080,
   "language": "en",
   "scope": {
-    "versions": "Current official Vertex release merchreflex-00018-mib; historical assets explicitly separated",
+    "versions": "Workflow measurements from revision merchreflex-00018-mib; current Pagemi branding is documented in docs/PAGEMI_HANDOFF.md",
     "platforms": [
       "desktop web",
       "demo storefront"

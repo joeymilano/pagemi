@@ -15,18 +15,18 @@ The six photographic slides include two newly generated images, two reused conce
 ## Asset sources
 
 - `assets/icons/*.svg`: Phosphor Icons, light weight, downloaded 18 October 2026 from https://github.com/phosphor-icons/core/tree/main/assets/light . MIT license included in `assets/icons/LICENSE.txt`. Inline SVG colors inherit the deck palette.
-- `01-reflex-loop.*`: built-in image generation, folded metal ribbon. Concept art, not a technical diagram. File stem is a working visual name, not a finalized brand.
+- `01-pagemi-loop.*`: built-in image generation, folded metal ribbon. Concept art, not a technical diagram. File name follows the selected Pagemi brand.
 - `03-rain-texture.*`: built-in image generation, droplets on woven fabric. Concept art, not a product test or evidence of waterproofing.
 - `04-merchant-concept.jpg`, `09-evidence-concept.jpg`: reused generated editorial images from the earlier deck.
 - `07-live-workbench.jpg`: actual public interface captured 18 October, before audit.
 - `11-historical-storefront.jpg`: actual historical interface captured 13 October.
-- Exact new generation prompts are saved in `prompts.json`; original PNGs remain in `images/`.
+- Pagemi regeneration templates are in `prompts.json`; exact original requests are in `provenance/generation-prompts-original.json`. Original PNGs remain in `images/`.
 
 Sources and detailed limitations live here rather than on every slide. The slides retain synthetic-image labels, test scope, earlier failures and untested outcomes.
 
 ## Evidence
 
-Five completed live journeys, 35 local tests, two earlier timeouts and the estimated model-call usage come from `../video-kit/assets/evidence/vertex-release-2026-10-18.json`. The evidence is unchanged. No new Gemini calls were made for this design revision. The original agent prompt and its fingerprint remain unchanged; this is a display-name-only application release.
+Five completed live journeys, 35 local tests, two earlier timeouts and the estimated model-call usage come from `../video-kit/assets/evidence/vertex-release-2026-10-18.json`. The evidence is unchanged. No new Gemini calls were made for this design revision. The agent identity now says Pagemi, which changes its prompt fingerprint. Decision instructions are unchanged. Earlier workflow results remain attached to the original fingerprint; they are not new-model measurements.
 
 ## Rebuild
 
