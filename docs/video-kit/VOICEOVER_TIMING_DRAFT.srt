@@ -1,0 +1,214 @@
+1
+00:00:00,200 --> 00:00:02,111
+The ticket is closed.
+
+2
+00:00:02,111 --> 00:00:04,500
+The mistake is still live.
+
+3
+00:00:05,200 --> 00:00:07,446
+The bottle looks included.
+
+4
+00:00:07,446 --> 00:00:10,254
+The page promises waterproof protection.
+
+5
+00:00:10,254 --> 00:00:12,500
+The specification says otherwise.
+
+6
+00:00:13,200 --> 00:00:18,047
+Pagemi turns customer confusion into
+evidence-linked page repairs.
+
+7
+00:00:18,047 --> 00:00:23,500
+Here is the working prototype, running on
+Google Cloud.
+
+8
+00:00:24,200 --> 00:00:29,569
+Gemini reads feedback, merchant
+specifications, and the product image.
+
+9
+00:00:29,569 --> 00:00:31,955
+Feedback identifies a problem.
+
+10
+00:00:31,955 --> 00:00:34,938
+The specification supports product facts.
+
+11
+00:00:34,938 --> 00:00:41,500
+An image can show a bottle, but cannot
+prove waterproof performance.
+
+12
+00:00:42,200 --> 00:00:47,606
+The agent separates page problems from
+missing information and operational
+
+13
+00:00:47,606 --> 00:00:48,147
+issues.
+
+14
+00:00:48,147 --> 00:00:54,094
+It corrects the unsupported waterproof
+claim, asks for laptop dimensions, and
+
+15
+00:00:54,094 --> 00:00:59,500
+leaves a broken zipper or late delivery
+for human action.
+
+16
+00:01:00,200 --> 00:01:03,742
+Each proposed change shows its source.
+
+17
+00:01:03,742 --> 00:01:08,465
+A separate Gemini request checks the
+replacement text.
+
+18
+00:01:08,465 --> 00:01:12,597
+Program rules restrict edits to three
+fields.
+
+19
+00:01:12,597 --> 00:01:17,910
+Price, inventory, policies, and
+certifications stay outside the editing
+
+20
+00:01:17,910 --> 00:01:18,500
+scope.
+
+21
+00:01:19,200 --> 00:01:24,622
+Approval applies to exact wording and
+exact evidence.
+
+22
+00:01:24,622 --> 00:01:31,400
+When the merchant adds a new
+specification, that approval becomes
+
+23
+00:01:31,400 --> 00:01:32,078
+outdated.
+
+24
+00:01:32,078 --> 00:01:37,500
+The application requires a fresh
+assessment before publication.
+
+25
+00:01:38,200 --> 00:01:41,183
+We add measured sleeve dimensions.
+
+26
+00:01:41,183 --> 00:01:48,341
+A new assessment can disclose those
+measurements and ask customers to check
+
+27
+00:01:48,341 --> 00:01:49,534
+their device.
+
+28
+00:01:49,534 --> 00:01:55,500
+Dimensions alone do not guarantee that
+every sixteen-inch laptop fits.
+
+29
+00:01:56,200 --> 00:02:01,677
+Now the merchant reviews and approves the
+new text.
+
+30
+00:02:01,677 --> 00:02:05,329
+Publication creates a persistent page
+version.
+
+31
+00:02:05,329 --> 00:02:12,631
+We open the storefront, refresh it, and
+read the published result back.
+
+32
+00:02:12,631 --> 00:02:17,500
+Writing succeeded and content verification
+are separate checks.
+
+33
+00:02:18,200 --> 00:02:24,830
+If a change needs to be reversed, the
+merchant restores an earlier page.
+
+34
+00:02:24,830 --> 00:02:27,380
+Restoration creates another recorded
+version.
+
+35
+00:02:27,380 --> 00:02:33,500
+The history remains visible, and the
+restored content can be checked again.
+
+36
+00:02:34,200 --> 00:02:40,121
+The release passed five consecutive public
+workflows and thirty-five local tests.
+
+37
+00:02:40,121 --> 00:02:44,965
+The five journeys took twenty to sixty-
+nine seconds.
+
+38
+00:02:44,965 --> 00:02:47,656
+Earlier revisions had timeout failures.
+
+39
+00:02:47,656 --> 00:02:52,500
+Human accuracy grading and merchant
+testing are still pending.
+
+40
+00:02:53,200 --> 00:02:55,373
+Gemini runs through Vertex AI.
+
+41
+00:02:55,373 --> 00:02:59,719
+Cloud Run serves the application,
+Firestore records versions, and private
+
+42
+00:02:59,719 --> 00:03:01,892
+Cloud Storage holds uploaded images.
+
+43
+00:03:01,892 --> 00:03:04,500
+The model has no publishing tool.
+
+44
+00:03:05,200 --> 00:03:11,118
+Our next test is with merchants: can they
+make accurate repairs with less effort?
+
+45
+00:03:11,118 --> 00:03:11,541
+Pagemi.
+
+46
+00:03:11,541 --> 00:03:12,809
+Fix the page.
+
+47
+00:03:12,809 --> 00:03:14,500
+Not just the ticket.

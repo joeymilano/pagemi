@@ -1,0 +1,114 @@
+[
+  {
+    "page": 1,
+    "topic": "Product-page repair",
+    "layout": "S22",
+    "theme": "hero dark",
+    "animation": "image-hero"
+  },
+  {
+    "page": 2,
+    "topic": "The problem",
+    "layout": "S03",
+    "theme": "light",
+    "animation": "statement"
+  },
+  {
+    "page": 3,
+    "topic": "The repair",
+    "layout": "S22",
+    "theme": "hero dark",
+    "animation": "image-hero"
+  },
+  {
+    "page": 4,
+    "topic": "The merchant",
+    "layout": "S22",
+    "theme": "light",
+    "animation": "image-hero"
+  },
+  {
+    "page": 5,
+    "topic": "Decisions",
+    "layout": "S16",
+    "theme": "light",
+    "animation": "field-notes"
+  },
+  {
+    "page": 6,
+    "topic": "Workflow",
+    "layout": "S11",
+    "theme": "dark",
+    "animation": "timeline-walk"
+  },
+  {
+    "page": 7,
+    "topic": "Workbench",
+    "layout": "S22",
+    "theme": "light",
+    "animation": "image-hero"
+  },
+  {
+    "page": 8,
+    "topic": "Google Cloud",
+    "layout": "S05",
+    "theme": "light",
+    "animation": "stack-build"
+  },
+  {
+    "page": 9,
+    "topic": "Approval",
+    "layout": "S22",
+    "theme": "hero dark",
+    "animation": "image-hero"
+  },
+  {
+    "page": 10,
+    "topic": "Demo limits",
+    "layout": "S21",
+    "theme": "light",
+    "animation": "tech-spec"
+  },
+  {
+    "page": 11,
+    "topic": "Published page",
+    "layout": "S22",
+    "theme": "dark",
+    "animation": "image-hero"
+  },
+  {
+    "page": 12,
+    "topic": "Measured execution",
+    "layout": "S07",
+    "theme": "light",
+    "animation": "bar-grow"
+  },
+  {
+    "page": 13,
+    "topic": "Next tests",
+    "layout": "S19",
+    "theme": "hero light",
+    "animation": "four-cards"
+  },
+  {
+    "page": 14,
+    "topic": "Try it",
+    "layout": "S10",
+    "theme": "dark",
+    "animation": "split-statement"
+  },
+  {
+    "page": 15,
+    "topic": "Still to validate",
+    "layout": "S19",
+    "theme": "light",
+    "animation": "four-cards"
+  },
+  {
+    "page": 16,
+    "topic": "Closing",
+    "layout": "S09",
+    "theme": "hero dark",
+    "animation": "statement"
+  }
+]

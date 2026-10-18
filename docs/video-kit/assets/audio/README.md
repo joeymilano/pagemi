@@ -1,0 +1,1 @@
+Original synthesized sound-design sketches created for this project. No third-party samples. 48 kHz mono 16-bit WAV. These are not a final mix or music score. Producer may adapt and mix them for this film. Align actual state changes, not merely storyboard timestamps.

@@ -1,0 +1,159 @@
+{
+  "capturedDate": "2026-10-18",
+  "timezone": "Asia/Shanghai",
+  "assets": [
+    {
+      "path": "assets/audio/README.md",
+      "sha256": "6bd0f952f25237ccadadcfc4e3a9af6b3f50f585b51aff3d93be2227fb3babb0",
+      "bytes": 268,
+      "category": "original cue sketch",
+      "source": "signal synthesis created for this handoff",
+      "use": "Adapt to final mix; not a mastered score."
+    },
+    {
+      "path": "assets/audio/confirm.wav",
+      "sha256": "55a9166b50dd1f754aaff529864bcf1cbe12d06e506f084b1e625d9dfd9cc83a",
+      "bytes": 76844,
+      "category": "original cue sketch",
+      "source": "signal synthesis created for this handoff",
+      "use": "Adapt to final mix; not a mastered score."
+    },
+    {
+      "path": "assets/audio/invalidate.wav",
+      "sha256": "4248d8ce203ec437b971b33fd255aaeb2d33474d6218bc4d1b9d2d01884565f8",
+      "bytes": 52844,
+      "category": "original cue sketch",
+      "source": "signal synthesis created for this handoff",
+      "use": "Adapt to final mix; not a mastered score."
+    },
+    {
+      "path": "assets/audio/stamp.wav",
+      "sha256": "ee35b535e00aecf83f365cc3690fbac0ac07441e47fd306a07c13f123e7b5c8c",
+      "bytes": 33644,
+      "category": "original cue sketch",
+      "source": "signal synthesis created for this handoff",
+      "use": "Adapt to final mix; not a mastered score."
+    },
+    {
+      "path": "assets/brand/app-icon.svg",
+      "sha256": "fa7bd507fa78e4f2e8695d630cfa8cf87f029176ccc984d45d1cac4b01db0aa2",
+      "bytes": 193,
+      "category": "project asset",
+      "source": "public/commuter-one.png or app/icon.svg",
+      "use": "Backpack image is AI-generated synthetic demonstration. Icon is existing app favicon; UI uses its own layer mark."
+    },
+    {
+      "path": "assets/brand/commuter-one-ai-generated.png",
+      "sha256": "5da212894eef88197a96cc85f5a11bc332ec21996080f3a072912db84c2292c7",
+      "bytes": 2025033,
+      "category": "project asset",
+      "source": "public/commuter-one.png or app/icon.svg",
+      "use": "Backpack image is AI-generated synthetic demonstration. Icon is existing app favicon; UI uses its own layer mark."
+    },
+    {
+      "path": "assets/current/01-live-start.png",
+      "sha256": "089ae1eea2ba205b6436809f6ddc6bbc7f1bfd69d9d99a3a449ad5e6379f73d4",
+      "bytes": 398797,
+      "category": "current live UI, 2026-10-18, before model audit",
+      "source": "Public Pagemi UI, 18 October 2026, revision merchreflex-00020-rod; before audit",
+      "use": "Current visual reference. Does not show a completed run."
+    },
+    {
+      "path": "assets/current/02-live-before-audit.png",
+      "sha256": "c9db31fe6d602c5039568a69235221a9f2d263added7c1ad8cc3b642c9890709",
+      "bytes": 748089,
+      "category": "current live UI, 2026-10-18, before model audit",
+      "source": "Public Pagemi UI, 18 October 2026, revision merchreflex-00020-rod; before audit",
+      "use": "Current visual reference. Does not show a completed run."
+    },
+    {
+      "path": "assets/current/03-live-specification.png",
+      "sha256": "6597acde05f7be8e6bde27d5fb514e12bbedab440941bad0ccbee239f20e079b",
+      "bytes": 747778,
+      "category": "current live UI, 2026-10-18, before model audit",
+      "source": "Public Pagemi UI, 18 October 2026, revision merchreflex-00020-rod; before audit",
+      "use": "Current visual reference. Does not show a completed run."
+    },
+    {
+      "path": "assets/evidence/real-response-excerpt.json",
+      "sha256": "b5c58efe6ac960394238edab146fa66e228ac68dc7ddc5261b10687e9d4a253d",
+      "bytes": 4817,
+      "category": "sanitized release evidence",
+      "source": "2026-10-18 release reports and real public response excerpt",
+      "use": "Execution evidence, not independent semantic grading or market proof."
+    },
+    {
+      "path": "assets/evidence/vertex-release-2026-10-18.json",
+      "sha256": "1db28eb501923201fcd534ffae1eea9b081b6bbd4b1c0a8f3b09dba53f3023bb",
+      "bytes": 10135,
+      "category": "sanitized release evidence",
+      "source": "2026-10-18 release reports and real public response excerpt",
+      "use": "Execution evidence, not independent semantic grading or market proof."
+    },
+    {
+      "path": "assets/fonts/DM-Sans-LICENSE.txt",
+      "sha256": "6fbd040a29c2037a765dfb9f2561e9965b5c95c6dcb5dce516089d63d5f17af7",
+      "bytes": 4502,
+      "category": "licensed font",
+      "source": "installed @fontsource packages; see included license",
+      "use": "Use under bundled font license."
+    },
+    {
+      "path": "assets/fonts/Manrope-LICENSE.txt",
+      "sha256": "d826ab6583b12c26807d8716a545bdbbb672df04f48608a364ba9efdbe501c30",
+      "bytes": 4383,
+      "category": "licensed font",
+      "source": "installed @fontsource packages; see included license",
+      "use": "Use under bundled font license."
+    },
+    {
+      "path": "assets/fonts/dm-sans-latin-400-normal.woff2",
+      "sha256": "4ab51eb2cd7305d177187908d6397474d4520663f6c6e572feb0a64f4fa80006",
+      "bytes": 14200,
+      "category": "licensed font",
+      "source": "installed @fontsource packages; see included license",
+      "use": "Use under bundled font license."
+    },
+    {
+      "path": "assets/fonts/manrope-latin-600-normal.woff2",
+      "sha256": "f7ac6258da20ab7541939b59851155753d1d24f1b30cbcb949077a3faa3d1593",
+      "bytes": 14172,
+      "category": "licensed font",
+      "source": "installed @fontsource packages; see included license",
+      "use": "Use under bundled font license."
+    },
+    {
+      "path": "assets/fonts/manrope-latin-700-normal.woff2",
+      "sha256": "d2a12c85a831e4b5db341767d0347fa3d1361d22a1fcb3e361a16b6c90080f71",
+      "bytes": 14212,
+      "category": "licensed font",
+      "source": "installed @fontsource packages; see included license",
+      "use": "Use under bundled font license."
+    },
+    {
+      "path": "assets/historical/2026-10-13-dimension-reassessment.jpg",
+      "sha256": "2ddd456375f8de17dfd42eaefcbf749c552d5b82239418ba128d5fb10633f5e3",
+      "bytes": 122817,
+      "category": "historical real capture, 2026-10-13",
+      "source": "repository output/screenshots or docs/images",
+      "use": "Reference only; date/version label required if included in film."
+    },
+    {
+      "path": "assets/historical/2026-10-13-published-verified.jpg",
+      "sha256": "709a5fd7e2dfcf55442006f607a6db16a43a595b8cc43d3c1f31f5645764520a",
+      "bytes": 82309,
+      "category": "historical real capture, 2026-10-13",
+      "source": "repository output/screenshots or docs/images",
+      "use": "Reference only; date/version label required if included in film."
+    },
+    {
+      "path": "assets/historical/2026-10-13-storefront-v2.jpg",
+      "sha256": "640736e1ad6ae9be478ced0f44fef3e63d91333a633e00598b78d53b0bb45d0c",
+      "bytes": 87054,
+      "category": "historical real capture, 2026-10-13",
+      "source": "repository output/screenshots or docs/images",
+      "use": "Reference only; date/version label required if included in film."
+    }
+  ],
+  "exclusions": "No credentials, raw session files, cloud console screenshots or private business data included."
+}

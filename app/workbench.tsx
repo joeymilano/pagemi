@@ -359,7 +359,7 @@ export default function Workbench() {
           <span className="brand-icon">
             <Layers3 size={21} />
           </span>
-          MerchReflex
+          Pagemi
         </a>
         <div className="workspace-label">
           YOUR WORKSPACE <span>DEMO</span>
@@ -453,7 +453,7 @@ export default function Workbench() {
                   </p>
                 </div>
                 <span className="edition">
-                  MERCHREFLEX
+                  PAGEMI
                   <br />
                   FIELD NOTES — 001
                 </span>
@@ -1148,7 +1148,7 @@ export default function Workbench() {
           )}
           <footer>
             <span>
-              MerchReflex <span className="footer-dot">/</span> Evidence before
+              Pagemi <span className="footer-dot">/</span> Evidence before
               execution.
             </span>
             <span>Built with Gemini & Google Cloud</span>

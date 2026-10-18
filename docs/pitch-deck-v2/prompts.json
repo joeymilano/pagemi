@@ -1,0 +1,12 @@
+[
+  {
+    "file": "images/01-reflex-loop.png",
+    "tool": "Built-in image_gen",
+    "prompt": "Create an ultra-wide 21:9 luxury technology campaign photograph for the brand Reflex: one monumental folded brushed-chrome ribbon bent into a precise returning loop, catching a single vivid chartreuse-lime strip of light, on a deep black studio floor. Beautiful optical reflections, sculptural real material, razor-sharp photographic detail, Swiss international design art direction. Subject centered in the safe middle area, generous black negative space left for large typography added later. No title, no footer, no page chrome, no logo, no border, no letters. This is conceptual brand artwork, not a product interface."
+  },
+  {
+    "file": "images/03-rain-texture.png",
+    "tool": "Built-in image_gen",
+    "prompt": "Create a 21:9 ultra-wide macro editorial photograph: crisp droplets of light rain resting on olive technical woven backpack fabric, small luminous chartreuse edge seam, deep soft-black background. Rich tactile detail, dramatic side lighting, sophisticated luxury outdoor-product advertising, Swiss international style. Subject centered in the safe middle area. Beautiful texture across frame with darker negative space on left. No title, no footer, no page chrome, no logo, no border, no text. Conceptual visual only, not a waterproof test or a real product specimen."
+  }
+]

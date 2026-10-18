@@ -16,7 +16,7 @@ export default async function StorePage({
       <main className="standalone">
         <h1>A storefront of your own.</h1>
         <p>Start a private demonstration session first.</p>
-        <Link href="/">Open MerchReflex →</Link>
+        <Link href="/">Open Pagemi →</Link>
       </main>
     );
   let s;
@@ -34,7 +34,7 @@ export default async function StorePage({
   return (
     <main className="store-site">
       <nav>
-        <Link href="/">← Back to MerchReflex</Link>
+        <Link href="/">← Back to Pagemi</Link>
         <span>DEMONSTRATION STOREFRONT · VERSION {v.version}</span>
       </nav>
       <div className="store-brand">

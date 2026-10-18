@@ -1,0 +1,189 @@
+{
+  "title": "The mistake is still live.",
+  "durationSeconds": 195,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "language": "en",
+  "scope": {
+    "versions": "Current official Vertex release merchreflex-00018-mib; historical assets explicitly separated",
+    "platforms": [
+      "desktop web",
+      "demo storefront"
+    ]
+  },
+  "status": "preproduction handoff; not a rendered video",
+  "style": "hybrid: product dark green plus restrained cinematic framing",
+  "shots": [
+    {
+      "id": "01",
+      "startSeconds": 0,
+      "endSeconds": 5,
+      "title": "The mistake is still live.",
+      "voiceover": "The ticket is closed. The mistake is still live.",
+      "visualDirectionZh": "概念开场：占画面三分之一的工单落下 Resolved 印章并抽走，露出背后的 100% waterproof。1.2秒停顿，然后切到仍亮着的错误承诺。右下小字 Illustrative scenario。",
+      "soundDirectionZh": "一次干净的盖章声；1.8秒切掉混响，留低频脉冲。",
+      "evidence": "editorial illustration; original fixture in lib/fixtures.ts",
+      "recordingStatus": "editorial_assets_ready"
+    },
+    {
+      "id": "02",
+      "startSeconds": 5,
+      "endSeconds": 13,
+      "title": "One page. Two misunderstandings.",
+      "voiceover": "The bottle looks included. The page promises waterproof protection. The specification says otherwise.",
+      "visualDirectionZh": "实物感背包大图，细线框住水瓶；切成原页面承诺与商家规格对照。轻微推近，禁止伪造商品浸水试验。",
+      "soundDirectionZh": "玻璃质感轻触两次，低频节拍开始。",
+      "evidence": "assets/brand/commuter-one-ai-generated.png; assets/current/03-live-specification.png",
+      "recordingStatus": "editorial_assets_ready"
+    },
+    {
+      "id": "03",
+      "startSeconds": 13,
+      "endSeconds": 24,
+      "title": "Pagemi",
+      "voiceover": "Pagemi turns customer confusion into evidence-linked page repairs. Here is the working prototype, running on Google Cloud.",
+      "visualDirectionZh": "3D包装快速压平为真实首页，1秒品牌落版后进入全屏桌面工作台。屏幕角落持续保留 Synthetic demo。",
+      "soundDirectionZh": "低音打开到宽立体声；品牌出现不额外爆炸。",
+      "evidence": "assets/current/01-live-start.png; live recording required",
+      "recordingStatus": "not_recorded"
+    },
+    {
+      "id": "04",
+      "startSeconds": 24,
+      "endSeconds": 42,
+      "title": "Read the evidence.",
+      "voiceover": "Gemini reads feedback, merchant specifications, and the product image. Feedback identifies a problem. The specification supports product facts. An image can show a bottle, but cannot prove waterproof performance.",
+      "visualDirectionZh": "真实点击来源，放大规格关键句4秒，再看图片。Run audit实际点击与返回必须录到；如缩短等待，明确标 Analysis wait shortened。",
+      "soundDirectionZh": "微弱扫描音只沿来源连线移动，旁白下音乐降低。",
+      "evidence": "Take A; lib/agent.ts; lib/fixtures.ts",
+      "recordingStatus": "not_recorded"
+    },
+    {
+      "id": "05",
+      "startSeconds": 42,
+      "endSeconds": 60,
+      "title": "Repair, ask, or hand off.",
+      "voiceover": "The agent separates page problems from missing information and operational issues. It corrects the unsupported waterproof claim, asks for laptop dimensions, and leaves a broken zipper or late delivery for human action.",
+      "visualDirectionZh": "三项实际问题依次选中，各停3–4秒，红色过度声明、琥珀色缺资料、灰色人工处理。不要给每条反馈都闪绿色勾。",
+      "soundDirectionZh": "有节制的三次状态声；没有成功庆祝音。",
+      "evidence": "Take A; assets/evidence/real-response-excerpt.json",
+      "recordingStatus": "not_recorded"
+    },
+    {
+      "id": "06",
+      "startSeconds": 60,
+      "endSeconds": 79,
+      "title": "Every change has a source.",
+      "voiceover": "Each proposed change shows its source. A separate Gemini request checks the replacement text. Program rules restrict edits to three fields. Price, inventory, policies, and certifications stay outside the editing scope.",
+      "visualDirectionZh": "真实前后差异与来源并排；将不支持的 waterproof 词组与受支持文字进行匹配剪辑。其余界面不扭曲。批准前保留人审复选框。",
+      "soundDirectionZh": "细线连上时轻响；旁白读 source 时停留。",
+      "evidence": "Take A; lib/agent.ts; lib/domain.ts",
+      "recordingStatus": "not_recorded"
+    },
+    {
+      "id": "07",
+      "startSeconds": 79,
+      "endSeconds": 98,
+      "title": "New evidence. Old approval expires.",
+      "voiceover": "Approval applies to exact wording and exact evidence. When the merchant adds a new specification, that approval becomes outdated. The application requires a fresh assessment before publication.",
+      "visualDirectionZh": "第一次真正批准之后补充规格。特写实际 Outdated 状态；外层批准连接线从绿变琥珀并断开。静止2秒让评委理解。",
+      "soundDirectionZh": "音乐抽空0.4秒；低而短的失效提示音，无刺耳警报。",
+      "evidence": "Take B; domain invalidation tests; no final-prompt live clip yet",
+      "recordingStatus": "not_recorded"
+    },
+    {
+      "id": "08",
+      "startSeconds": 98,
+      "endSeconds": 116,
+      "title": "Dimensions, without an invented promise.",
+      "voiceover": "We add measured sleeve dimensions. A new assessment can disclose those measurements and ask customers to check their device. Dimensions alone do not guarantee that every sixteen-inch laptop fits.",
+      "visualDirectionZh": "录入32×23×3厘米的合成商家规格并重审。只有真实返回安全尺寸建议才展示成功；保留尺寸提示和未保证通用兼容的措辞。",
+      "soundDirectionZh": "节拍恢复，三段刻度线跟随真实尺寸；不画未测量的电脑适配。",
+      "evidence": "Take B; historical screenshot is reference only",
+      "recordingStatus": "not_recorded"
+    },
+    {
+      "id": "09",
+      "startSeconds": 116,
+      "endSeconds": 138,
+      "title": "Approve. Publish. Read it back.",
+      "voiceover": "Now the merchant reviews and approves the new text. Publication creates a persistent page version. We open the storefront, refresh it, and read the published result back. Writing succeeded and content verification are separate checks.",
+      "visualDirectionZh": "至少12秒连续真实操作：勾选、批准、发布、打开页面、刷新、复查。其余6–10秒特写变更文字和实际版本；剪辑不能省略授权顺序。",
+      "soundDirectionZh": "鼠标点击轻音；只在真正发布完成后出现低音落点，复查再一个柔和确认。",
+      "evidence": "Take C; final release publicRuns",
+      "recordingStatus": "not_recorded"
+    },
+    {
+      "id": "10",
+      "startSeconds": 138,
+      "endSeconds": 154,
+      "title": "A way back.",
+      "voiceover": "If a change needs to be reversed, the merchant restores an earlier page. Restoration creates another recorded version. The history remains visible, and the restored content can be checked again.",
+      "visualDirectionZh": "真实点击恢复和刷新，旧措辞重新出现，新版本号递增。严禁用倒放页面切换假装回滚。",
+      "soundDirectionZh": "机械归位感轻响，不反放前一段音频。",
+      "evidence": "Take C; final release publicRuns",
+      "recordingStatus": "not_recorded"
+    },
+    {
+      "id": "11",
+      "startSeconds": 154,
+      "endSeconds": 173,
+      "title": "Tested. With limits visible.",
+      "voiceover": "The release passed five consecutive public workflows and thirty-five local tests. The five journeys took twenty to sixty-nine seconds. Earlier revisions had timeout failures. Human accuracy grading and merchant testing are still pending.",
+      "visualDirectionZh": "5条真实耗时线依次出现34.8、69.5、29.2、20.2、30.9秒；下方常驻 Synthetic tests。展示早前504失败且无可批准补丁。禁止标100% accuracy。",
+      "soundDirectionZh": "音乐缩减到脉冲，让数字读得清楚。",
+      "evidence": "assets/evidence/vertex-release-2026-10-18.json",
+      "recordingStatus": "editorial_assets_ready"
+    },
+    {
+      "id": "12",
+      "startSeconds": 173,
+      "endSeconds": 185,
+      "title": "Google AI, controlled execution.",
+      "voiceover": "Gemini runs through Vertex AI. Cloud Run serves the application, Firestore records versions, and private Cloud Storage holds uploaded images. The model has no publishing tool.",
+      "visualDirectionZh": "简洁四节点架构。商家批准位于模型和发布之间。模型到发布之间不画直连箭头。文字足够大，不展示密钥或云账单。",
+      "soundDirectionZh": "脉冲逐渐合并，避免音效盖住技术名称。",
+      "evidence": "docs/IMPLEMENTATION.md; docs/HANDOFF_GOOGLE_CLOUD.md",
+      "recordingStatus": "editorial_assets_ready"
+    },
+    {
+      "id": "13",
+      "startSeconds": 185,
+      "endSeconds": 195,
+      "title": "Fix the page. Not just the ticket.",
+      "voiceover": "Our next test is with merchants: can they make accurate repairs with less effort? Pagemi. Fix the page. Not just the ticket.",
+      "visualDirectionZh": "回到开场同一构图，错误承诺已被真实批准后的文字替代；最后6秒定格品牌、Google Cloud服务文字和短仓库链接，按钮感入口只作落版。",
+      "soundDirectionZh": "温暖双音收束；末尾0.5秒自然衰减，不突然截断。",
+      "evidence": "future research hypothesis; measured business impact not claimed",
+      "recordingStatus": "editorial_assets_ready"
+    }
+  ],
+  "audio": {
+    "musicBpm": 112,
+    "music": "Original score to be composed by producer; no licensed commercial track supplied",
+    "voice": "Calm English narrator, approximately 125 words/minute during spoken sections. Prefer authorized human or neutral licensed TTS; no impersonation.",
+    "targetLufs": -16,
+    "truePeakDbtp": -1,
+    "cues": [
+      {
+        "at": 0.65,
+        "asset": "assets/audio/stamp.wav"
+      },
+      {
+        "at": 82,
+        "asset": "assets/audio/invalidate.wav",
+        "note": "Align to actual outdated state in final edit, not this provisional time"
+      },
+      {
+        "at": 132,
+        "asset": "assets/audio/confirm.wav",
+        "note": "Only after actual check succeeds"
+      }
+    ]
+  },
+  "alternateCut": {
+    "durationSeconds": 175,
+    "note": "Timing plan only. Remove 4s from 02, 3s from 03, 4s from 04, 4s from 06, 3s from 11, 2s from 12. Re-record shortened narration and retime captions; never speed up narration or remove approval/source/verify proof."
+  }
+}
