@@ -4,7 +4,7 @@
 
 An evidence-grounded product-page repair prototype for AI Builder Cup 2026. New code built independently for this competition. All product facts and feedback in the demonstration are synthetic; the included image is AI-generated.
 
-[Live demo](https://merchreflex-927668522599.asia-southeast1.run.app) · [Current Zcode handoff](docs/HANDOFF_GOOGLE_CLOUD.md) · [Measured validation](docs/VALIDATION.md)
+[Live demo](https://pagemi.joeyzhao.cc) · [Current Zcode handoff](docs/HANDOFF_GOOGLE_CLOUD.md) · [Measured validation](docs/VALIDATION.md)
 
 ## What works
 

@@ -4,7 +4,8 @@ Updated: 2026-10-18T10:08:55.535537+00:00. This is the current handoff; the earl
 
 ## Live release
 
-- Canonical browser URL: https://merchreflex-927668522599.asia-southeast1.run.app
+- Public browser URL: https://pagemi.joeyzhao.cc
+- Upstream Cloud Run origin / APP_ORIGIN: https://merchreflex-927668522599.asia-southeast1.run.app
 - Google Cloud project: `merchreflex-cup-2026`; region: `asia-southeast1`.
 - Serving revision: **`merchreflex-00023-fow`**, verified at **100% traffic**.
 - Provider/model: **official Vertex AI / `gemini-3.8-flash` / `global`**. Generation and independent semantic verification both make real model requests; there is no replay fallback.
@@ -13,7 +14,7 @@ Updated: 2026-10-18T10:08:55.535537+00:00. This is the current handoff; the earl
 - Current prompt fingerprint: `3754665a83db1f525424138bb4a55b8a316052f139342a80ed6d90500e05192e`. The measured fingerprint remains in the release evidence.
 - Historical measured-release Cloud Build: `0be7c96e-c60f-421a-b1b0-283af5d03cc7`.
 
-Use the canonical numeric URL above. The application checks an exact `APP_ORIGIN`; an alternate Cloud Run URL is not an interchangeable browser entry point. Candidate API tests use the tagged URL plus the canonical write Origin.
+Use the branded public URL. The Cloudflare entry validates its exact Origin and translates it to the fixed Cloud Run APP_ORIGIN while preserving CSRF, cookies and streaming. Keep the upstream APP_ORIGIN unchanged. See infra/public-entry/README.md. Direct candidate tests still use the upstream write Origin.
 
 ## Pagemi branding release · 18 October 2026
 

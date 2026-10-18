@@ -17,7 +17,7 @@
 
 ## 线上状态
 
-- URL：https://merchreflex-927668522599.asia-southeast1.run.app
+- URL：https://pagemi.joeyzhao.cc
 - 名称版本：`merchreflex-00023-fow`，100% 流量
 - UI、P 图标、健康接口、包名和模型身份均已统一；提示词哈希改变，决策规则、存储和预算未改
 - 35 项本地测试、构建及类型检查通过；候选健康、标题和图标检查通过后切流。此前已验证公网示例会话和工作台，本次未重跑付费模型流程
@@ -40,3 +40,7 @@
 ## 文案要求
 
 标题不加句号，优先 2–6 个词。用具体动作和实测数字，避免 trust、empower、transform 等空泛口号。生成图、历史截图和未完成测试只保留必要的短标签，详情放交接文档。
+
+## Public domain update
+
+The public entry is https://pagemi.joeyzhao.cc. Cloudflare forwards to the existing Google Cloud Run application without redirecting the browser. Gemini, Firestore and image storage remain on Google Cloud. Two full synthetic workflows passed through the new domain, including model generation, approval, publication, served-page verification and rollback. Measured post-preflight durations were 52.192 and 23.728 seconds. These are domain-integration checks, not new semantic grading. The earlier no-model-call statements refer only to the prior name-only release.

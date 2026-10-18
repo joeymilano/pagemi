@@ -1,0 +1,14 @@
+{
+  "name": "pagemi-entry",
+  "main": "worker.mjs",
+  "account_id": "72226d6b765a8c0002b9f750e7762ada",
+  "compatibility_date": "2026-10-18",
+  "workers_dev": false,
+  "preview_urls": false,
+  "routes": [{ "pattern": "pagemi.joeyzhao.cc", "custom_domain": true }],
+  "vars": {
+    "PUBLIC_ORIGIN": "https://pagemi.joeyzhao.cc",
+    "UPSTREAM_ORIGIN": "https://merchreflex-927668522599.asia-southeast1.run.app"
+  },
+  "observability": { "enabled": false }
+}

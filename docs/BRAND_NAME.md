@@ -23,3 +23,7 @@ The team remains Finfold Growth Lab; this is a team identity, separate from the 
 35 local tests, production build and type-check passed. All 16 visual-deck slides loaded their images without overflow. Both 16-page PDFs have no old product name in searchable text. The live title, health response and P favicon were verified after promoting revision `merchreflex-00023-fow` to 100% traffic. No model calls were made for this name change.
 
 The portal form has the new description, repository and PDF, but no video and no submission receipt. Do not represent form preparation as completed submission.
+
+## Public domain update
+
+The public entry is https://pagemi.joeyzhao.cc. Cloudflare forwards to the existing Google Cloud Run application without redirecting the browser. Gemini, Firestore and image storage remain on Google Cloud. Two full synthetic workflows passed through the new domain, including model generation, approval, publication, served-page verification and rollback. Measured post-preflight durations were 52.192 and 23.728 seconds. These are domain-integration checks, not new semantic grading. The earlier no-model-call statements refer only to the prior name-only release.

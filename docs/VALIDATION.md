@@ -33,3 +33,7 @@ The historical record is preserved for provenance. Its old model-provider, billi
 ## Pagemi naming release
 
 The product identity changed to Pagemi, producing prompt hash `3754665a83db1f525424138bb4a55b8a316052f139342a80ed6d90500e05192e`. Decision instructions are unchanged. 35 local tests, production build and type-check passed again. No new paid model workflows were run. Measurements above retain their original revision and fingerprint.
+
+## Public domain update
+
+The public entry is https://pagemi.joeyzhao.cc. Cloudflare forwards to the existing Google Cloud Run application without redirecting the browser. Gemini, Firestore and image storage remain on Google Cloud. Two full synthetic workflows passed through the new domain, including model generation, approval, publication, served-page verification and rollback. Measured post-preflight durations were 52.192 and 23.728 seconds. These are domain-integration checks, not new semantic grading. The earlier no-model-call statements refer only to the prior name-only release.

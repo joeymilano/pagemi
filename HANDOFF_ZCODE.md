@@ -7,7 +7,7 @@
 - 名称统一使用 **Pagemi**，读作 **PAGE-mee**
 - 本地入口：`/Users/joeyzhao/Documents/Pagemi`
 - 公开仓库：https://github.com/joeymilano/pagemi
-- 正式演示：https://merchreflex-927668522599.asia-southeast1.run.app
+- 正式演示：https://pagemi.joeyzhao.cc
 - 视觉 Deck 与素材：`docs/pitch-deck-v2/`
 - 视频制作：`docs/video-kit/START_HERE_OPUS.md`
 - 官方模板：`docs/submission/Pagemi_Official_Template_2026-10-18.pptx` 与 PDF

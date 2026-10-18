@@ -1,0 +1,25 @@
+{
+  "at": "2026-10-18T15:16:00.391Z",
+  "origin": "https://pagemi.joeyzhao.cc",
+  "status": "passed",
+  "durationMs": 23728,
+  "checks": [
+    "unauthenticated read denied",
+    "Origin enforced",
+    "CSRF enforced",
+    "live agent completed",
+    "session isolation",
+    "unapproved publish denied",
+    "approved publish",
+    "idempotent replay",
+    "served page verified",
+    "rollback",
+    "restored page verified"
+  ],
+  "otherObservedRun": {
+    "status": "passed",
+    "durationMs": 52192,
+    "source": "captured smoke command output; raw result file overwritten by second run"
+  },
+  "workerVersion": "83316f48-a4e7-461d-84b0-7d45cdda7285"
+}

@@ -6,7 +6,7 @@
 
 制作 **3:15、16:9、1920×1080、30 fps、全英文旁白与字幕** 的 AI Builder Cup 演示片。名字暂定 **“The mistake is still live.”** 前 5 秒抓人，15 秒内看见产品，主体必须看清真实操作。保留 2:55 短版剪辑能力。
 
-- 产品：https://merchreflex-927668522599.asia-southeast1.run.app
+- 产品：https://pagemi.joeyzhao.cc
 - 源码：https://github.com/joeymilano/pagemi
 - 仓库根目录：`/Users/joeyzhao/Documents/Pagemi`
 - 本素材包：`docs/video-kit/`
